@@ -1,0 +1,289 @@
+POST http://localhost:8080/auth
+Content-Type: application/x-www-form-urlencoded
+
+pass=12345678&login=a@a.by
+
+###
+
+POST http://localhost:8080/reg
+Content-Type: application/x-www-form-urlencoded
+
+name=SimonTest&pass=12345678&login=a@a.by&age=22
+
+###
+
+GET http://localhost:8080/logout
+
+###
+
+POST http://localhost:8080/reg
+Content-Type: application/x-www-form-urlencoded
+
+name=SimonTest&pass=12345678&login=a@a.by&age=22
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T094900.404.html
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T094747.200.txt
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T093707.200.txt
+
+###
+
+GET http://localhost:8080/logout
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T093626.200.txt
+
+###
+
+POST http://localhost:8080/auth
+Content-Type: application/x-www-form-urlencoded
+
+pass=12345678&login=a@a.by
+
+###
+
+POST http://localhost:8080/reg
+Content-Type: application/x-www-form-urlencoded
+
+name=SimonTest&pass=12345678&login=a@a.by&age=22
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T093100.200.txt
+
+###
+
+POST http://localhost:8080/auth
+Content-Type: application/x-www-form-urlencoded
+
+pass=12345678&login=a@a.by
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T093048.200.txt
+
+###
+
+POST http://localhost:8080/auth
+Content-Type: application/x-www-form-urlencoded
+
+pass=12345678&login=a@b.by
+
+###
+
+POST http://localhost:8080/reg
+Content-Type: application/x-www-form-urlencoded
+
+name=SimonTest&pass=12345678&login=a@b.by&age=22
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T093022.200.txt
+
+###
+
+POST http://localhost:8080/auth
+Content-Type: application/x-www-form-urlencoded
+
+pass=12345678&login=a@a.by
+
+###
+
+POST http://localhost:8080/reg
+Content-Type: application/x-www-form-urlencoded
+
+name=Simon&pass=12345678&login=a@a.by&age=22
+
+###
+
+GET http://localhost:8080/main
+
+###
+
+POST http://localhost:8080/auth
+Content-Type: application/x-www-form-urlencoded
+
+pass=12345678&login=a@a.by
+
+###
+
+POST http://localhost:8080/reg
+Content-Type: application/x-www-form-urlencoded
+
+name=Simon&pass=12345678&login=a@a.by&age=22
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T082705.200.txt
+
+###
+
+POST http://localhost:8080/auth
+Content-Type: application/x-www-form-urlencoded
+
+pass=12345678&login=a@a.by
+
+###
+
+POST http://localhost:8080/reg
+Content-Type: application/x-www-form-urlencoded
+
+name=Simon&pass=12345678&login=a@a.by&age=22
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T082653.200.txt
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T081920.200.txt
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T081648.200.txt
+
+###
+
+POST http://localhost:8080/auth
+Content-Type: application/x-www-form-urlencoded
+
+pass=12345678&login=a@a.by
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T081641.200.txt
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T081517.200.txt
+
+###
+
+POST http://localhost:8080/auth
+Content-Type: application/x-www-form-urlencoded
+
+pass=12345678&login=a@a
+
+###
+
+POST http://localhost:8080/reg
+Content-Type: application/x-www-form-urlencoded
+
+name=Simon&pass=12345678&login=a@a.by&age=22
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T081500.200.txt
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T081159.200.txt
+
+###
+
+POST http://localhost:8080/auth
+Content-Type: application/x-www-form-urlencoded
+
+pass=12345678&login=a@a.by
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T081132.200.txt
+
+###
+
+POST http://localhost:8080/reg
+Content-Type: application/x-www-form-urlencoded
+
+name=Simon&pass=12345678&login=a@a.by&age=22
+
+###
+
+POST http://localhost:8080/reg
+Content-Type: application/x-www-form-urlencoded
+
+name=Simon&pass=12345678&login=a@a.by&age22
+
+<> 2019-12-03T081026.500.html
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T080931.200.txt
+
+###
+
+POST http://localhost:8080/main
+Content-Type: application/x-www-form-urlencoded
+
+login=a@a.by&pass=12345678
+
+###
+
+POST http://localhost:8080/main
+Content-Type: application/x-www-form-urlencoded
+
+login=a@a.by&pass=12345678
+
+###
+
+POST http://localhost:8080/main
+Content-Type: application/x-www-form-urlencoded
+
+login=a@a.by&pass=12345678
+
+###
+
+GET http://localhost:8080/main
+
+<> 2019-12-03T070954.200.txt
+
+###
+
+GET http://localhost:8080/main?name=Simon
+
+<> 2019-12-03T070938.200.txt
+
+###
+
